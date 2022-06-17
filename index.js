@@ -59,7 +59,7 @@
   args.plugin_id = parseInt(args.plugin_id);
   args.developer_id = parseInt(args.developer_id);
 
-  gulp.task( 'freemius-deploy-custom', async function(done) {
+  gulp.task( 'freemius-deployer', async function(done) {
     if( ! Number.isInteger( args.plugin_id ) ) {
       showStatusMessage('Invalid Plugin Id.', 'error');
       done();
