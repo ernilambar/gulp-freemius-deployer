@@ -1,0 +1,24 @@
+{
+  "name": "gulp-freemius-deployer",
+  "version": "1.0.0",
+  "description": "Deploy a zip file to Freemius",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "freemius",
+    "deploy",
+    "gulp"
+  ],
+  "homepage": "https://www.nilambar.net/",
+  "repository": "ernilambar/gulp-freemius-deployer",
+  "author": "Nilambar Sharma [nilambar@outlook.com] (https://www.nilambar.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "fs": "0.0.1-security",
+    "needle": "^3.1.0",
+    "node-notifier": "^10.0.1"
+  }
+}
